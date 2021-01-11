@@ -1,11 +1,11 @@
-CREATE TABLE brewery (
+CREATE TABLE IF NOT EXISTS brewery (
   brewery_id INT PRIMARY KEY NOT NULL,
   brewery_name VARCHAR(100),
   city VARCHAR(100),
   state VARCHAR(5)
 );
 
-CREATE TABLE beers (
+CREATE TABLE IF NOT EXISTS beers (
   beer_id INT PRIMARY KEY NOT NULL,
   abv FLOAT,
   beer_name VARCHAR(250),

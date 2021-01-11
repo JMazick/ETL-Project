@@ -1,0 +1,1 @@
+SELECT br.style, br.abv, br.brewery_id FROM BEERS br ORDER BY br.style ASC;
