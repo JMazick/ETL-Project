@@ -6,8 +6,7 @@ T: Transform
 
 L: Load
 
-## Here is a sketch of our ERD
 
+### Purpose
 
-![alt text](https://github.com/JMazick/ETL-Project/blob/main/images/SCHEMA.PNG)
-
+The purpose of this project was to create a better understanding of how data integration by ETL is an important part of working with data.
